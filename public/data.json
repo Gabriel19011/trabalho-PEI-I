@@ -1,0 +1,68 @@
+[
+  {
+    "sabado": [
+      "arroz branco",
+      "feijão em calda",
+      "fricassê de frango",
+      "batata palha ",
+      "alface",
+      "tomate",
+      "legumes"
+    ],
+    "domingo": [
+      "arroz branco",
+      "feijão em calda",
+      "pernil temperado",
+      "crème de milho",
+      "salada verde",
+      "maionese de batata",
+      "legumes",
+      "legumes",
+      "legumes"
+    ],
+    "segunda": [
+      "arroz branco",
+      "feijão em calda",
+      "carne moída",
+      "polenta",
+      "salada colorida ",
+      "legumes"
+    ],
+    "terca": [
+      "arroz branco",
+      "feijão em calda",
+      "goulash",
+      "polenta ",
+      "legume",
+      "tomate"
+    ],
+    "quarta": [
+      "arroz branco",
+      "feijão em calda",
+      "strogonoff de frango",
+      "batata palha ",
+      "alface",
+      "tomate",
+      "legumes"
+    ],
+    "quinta": [
+      "arroz branco",
+      "feijão em calda",
+      "carne moída ",
+      "macarrão carne e óleo",
+      "alface",
+      "pepino",
+      "tomate",
+      "legumes"
+    ],
+    "sexta": [
+      "arroz branco",
+      "feijão em calda",
+      "goulash",
+      "purê de batatas",
+      "alface",
+      "cenoura",
+      "chuchu"
+    ]
+  }
+]

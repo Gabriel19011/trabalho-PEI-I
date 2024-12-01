@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        .form-control {
+            height: 55px; /* Define a altura do campo */
+            font-size: 18px; /* Define o tamanho da fonte */
+        }
+
+        /* .sobTexto {
+            margin-bottom: 45px;
+        } */
+
+        .card-custom-login{
+            background-color: #fff;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+            position: relative;
+            overflow: hidden;
+            width: 768px;
+            max-width: 100%;
+            min-height: 480px;
+        }
+
+        .card-custom-login a{
+            color: #333;
+            font-size: 13px;
+            text-decoration: none;
+            margin: 15px 0 10px;
+        }
+
+        .button2{
+            background-color: #11ce70 !important;
+            color: #fff !important;
+            font-size: 20px !important;
+            padding: 10px 45px !important;
+            border: 1px solid transparent !important;
+            border-radius: 8px !important;
+            font-weight: 600 !important;
+            letter-spacing: 0.5px !important;
+            text-transform: uppercase !important;
+            margin-top: 10px !important;
+            cursor: pointer !important;
+        }
+
+        .button2:hover {
+            background-color: #fd2d37 !important;
+            transition: 0.3s linear !important;
+            box-shadow: 0 3px 15px #00ff80 !important;
+            border: 1px solid #11ce70 !important;
+        }
+        .button2.hidden{
+            background-color: transparent !important;
+            border-color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-custom-login  p-3 shadow-lg bg-white" id="container" >
+        <!-- <div class="card-body">
+        <div class="card-body"> -->
+        <div class="card-body">
+        <h1>Login para acessar sistema</h1>
+        <div class="card-body">
+       
+        <div class="card-body">
+            <form action="/logado" method="get">
+                <div class="mb-4 form-outline" data-mdb-input-init data-mdb-input-initialized="true">
+                    <input type="text" class="form-control form-control-lg" id="usuario" name="usuario" required placeholder="Digite seu usuário">
+                    <label for="usuario" class="form-label">Digite seu usuário</label>
+                </div>
+                <div class="mb-5 form-outline" data-mdb-input-init data-mdb-input-initialized="true">
+                    <input type="password" class="form-control form-control-lg" id="senha" name="senha" required placeholder="Digite sua senha">
+                    <label for="senha" class="form-label">Digite sua senha</label>
+                </div>
+                <div class="div-centraliza">
+                <button class="btn btn-lg button2">Entrar</button>
+                </div>
+            </form>
+        </div>
+        </div>
+        </div>
+        <!-- </div>
+        </div> -->
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+</body>
+</html>

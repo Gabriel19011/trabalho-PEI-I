@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Alimentos</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script> -->
+
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Cardápio do dia:</h1>
+                <span>*pode ocorrer alteração sem aviso prévio*</span>        
+                <!-- <fieldset> -->
+                <div class="scrollable espacoTopo">
+                    <div id="checkboxes" class="input-group">
+                        <!-- Itens dinamicos-->
+                      </div>
+                </div>
+                <!-- </fieldset> -->
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Faça seu Pedido!</h1>
+                <span>caso não queira algo, use a observação!</span>
+                <input type="text" placeholder="Nome" required>
+
+                <!-- <input class="obs" type="text" placeholder="*Observação*"> -->
+                <textarea class="obs" type="text" placeholder="*Observação*"></textarea>
+                <button type="submit" class="" >Confirmar</button> 
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Fazer o Pedido</h1>
+                    <p>Agora que você viu o nosso cardápio do dia, que tal fazer o seu pedido?</p>
+                    <button class="hidden" id="login">fazer o pedido</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Veja o Cardápio<br>do dia</h1>
+                    <p>Você gostaria de saber o que vamos ter pra comer hoje?</p>
+                    <button class="hidden" id="register">Cardápio</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src="script.js"></script>
+      <script src="script2.js"></script>
+    <script src="script3.js"></script>
+</body>
+</html>
